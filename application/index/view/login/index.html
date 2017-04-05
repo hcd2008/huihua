@@ -46,7 +46,9 @@
   </div>
   <div class="container">
     <div class="containerBg"></div>
+    {if $step==1}
     <div class="main step1" style="display: block;">
+    <form action="" method="post">
       <div class="loginTitle ">通 行 证 登 录</div>
       <div class="clearfix">
         <label>通行证帐号：</label>
@@ -56,22 +58,25 @@
         <label>验证码：</label>
         <input style="width:140px;" type="text" name="vcode" maxlength="4" id='vcode' class="fieldStyle step1Txt">
         <img width="74" height="32" border="0" align="absmiddle" src="{:captcha_src()}" title="看不清楚，换一张图片" id="vcode_img" onclick="this.src='{:captcha_src()}?'+(new Date()).getTime()"/> </div>
-      <div class="clearfix"> <a id="loginSubmit" class="button glow button-rounded button-flat-action"> <i class="icon-refresh"></i> <b>下&nbsp;一&nbsp;步</b> </a> <a class="wjPwd">忘记密码？</a> </div>
+      <div class="clearfix"> <!-- <a id="loginSubmit" class="button glow button-rounded button-flat-action"> <i class="icon-refresh"></i> <b>下&nbsp;一&nbsp;步</b> </a> <--><input id="loginSubmit" class="button glow button-rounded button-flat-action" type="submit" value="下&nbsp;一&nbsp;步"></--> <a class="wjPwd">忘记密码？</a> </div>
     </div>
-    <div class="main step2" style="display: none;">
+    </form>
+    {/if}
+    {if $step==2}
+    <div class="main step2" style="display: block;">
       <div class="loginTitle ">通 行 证 登 录</div>
       <div style="padding-top:20px;" class="clearfix clearfix2">
         <label>登录账号：</label>
-        <span id="vipNameDisplay"></span> </div>
+        <span id="vipNameDisplay">{$username}</span> </div>
       <div class="clearfix clearfix2 fix3">
         <label>安全提示：</label>
         <div class="welcomeTxt"><span>账户密码不要过于简单，不得外露给他人。</span>
-          <div style="margin-left:90px; color:#79BA29;">您还没有设置问候语，为了您的安全，请尽快设置！</div>
+          <div style="margin-left:90px; color:#79BA29;">{$wenhouyu}</div>
         </div>
       </div>
       <div class="clearfix">
-      <form method="post" id='form1'>
-        <input class="inp-1 img-login" name="username" id='username1' type="hidden"/>
+      <form method="post" action="{:url('login/doCheckPwd')}" id='form1'>
+        <input class="inp-1 img-login" name="username" value="{$username}" id='username1' type="hidden"/>
         <label>登录密码：</label>
         <input style="width:140px;" type="password" name="password" id="vipPassword" class="fieldStyle step2Txt">
         </div>
@@ -79,6 +84,7 @@
           <a class="wjPwd">忘记密码？</a> </div>
       </form>
     </div>
+    {/if}
     <div class="container-right">
       <p>温馨提示</p>
       浏览器建议：首选 <a title="谷歌浏览器下载" target="_black" href="https://www.google.com/intl/zh-CN/chrome/browser/?hl=zh-CN"><font color="#35CE2F"> Chrome谷歌</font></a>， <a title="火狐浏览器下载" target="_black" href="http://www.firefox.com.cn/"><font color="#F27114">火狐浏览器</font></a>，其次为 <a title="IE浏览器下载" target="_black" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie"><font color="#1FA5ED">IE8.0</font></a> 以上浏览器可达到Web端最佳动态效果。尽量不要使用IE6.0、IE7.0浏览器。
