@@ -1,0 +1,422 @@
+@charset "utf-8";
+/*开始游戏*/
+.game_top_area{border:0px solid #222;}
+.game_top_period{padding-top:1px;border:0px solid #CCCCCC; color:#fff; text-align:center}
+.game_top_aleft{padding:0px;border:0px solid #CCCCCC;}
+.grid_code_tl{margin-top:10px;padding-left:15px; width:100%}
+.hide{margin-top:5px; margin-left:0px}
+.grid_code_ssc {margin-top:20px; padding-left:8px}
+.game_top_aleft ul{padding:0px;border:0px solid #CCCCCC;}
+.game_top_aleft li{zoom:1;overflow:hidden;clear:both;vertical-align:middle;padding-bottom:5px;}
+.game_top_aleft li span{display:inline;;line-height:22px;padding:0 5px 0 0;overflow:hidden;}
+ 
+.kj-bottom{height:30px; line-height:30px;background:url(../../images/common/titlebg.png) repeat center;color:#fff;margin-top:0px; text-align:center; width:100%}
+ 
+.game_top_aleft .tit .i1{font-size:14px;font-weight: normal;padding:3px 2px 0px 0px;} 
+.game_top_aleft .ni{padding-top:10px; font-size:14px;}
+.game_top_aleft .ni span{margin-right:0px;}
+.game_top_aleft .ni .i1{font-weight:bold;padding:2px;}
+.game_top_aleft .ni .i2{color:#fff;}
+.game_top_aleft .ni .i2 span{color:#FFf000;}
+.game_top_aleft .ni .i2 .wjtips{font-weight: normal; font-size:14px}
+
+.game_top_aleft .tm .i1{border:1px solid #bbb;background:#fff;line-height:20px;text-align:center;}
+.game_top_aleft  #current_titles{color:#fff; margin-left:10px;}
+.game_top_aleft  #current_endtime{color:#fff000;}
+.game_top_aleft .tb em{float:left;display:inline-block;height:50px;line-height:50px;font-size:14px; margin-right:5px;color:#fff;}
+.game_top_aleft .tb .i2{ margin:0 auto;display:inline-block;background: url(../../images/common/timeico.png) no-repeat;height:28px;width:120px;color:#fff000;font-weight:bold;font-size:22px; line-height:30px;font-family: Arial, "微软雅黑", Times, serif; text-align:right;}
+
+.game_top_aleft span.pdl0{padding-left:0;}
+.game_top_aright{border:0px solid #CCCCCC;width:460px; text-align:center; margin:0 auto}
+.game_top_aright .tit{text-align:center; font-size:14px}
+.game_top_aright .tit .gamename{font-size:15px;font-weight:bold;color:#FFf000;}
+.game_top_aright .tit #kjsay{margin-left:5px; font-size:13px; display:none;}
+.game_top_aright .tit .kjtips{color:#FF0000; font-weight:bold;}
+.game_top_aright .last_issues{color:#ff6600;}
+.game_top_aright #last_issue{color:#fff;}
+.game_top_aright .tit .feipan{margin-left:15px;font-size:15px;font-weight:bold;color:#fece02;}
+.game_top_aright .tit .feipan em{font-size:15px;font-weight:bold;color:#ff0000;}
+#historylot th{font-size:14px; font-weight:bold; color:#fff;padding-left:5px;padding-right:5px}
+#historylot .periodlist{font-size:14px;line-height:20px;word-break:break-all;overflow:hidden;margin-top:5px; padding-left:5px; padding-right:5px}
+.periodlist8{font-size:10px;*font-size:8px;line-height:12px;word-break:break-all;overflow:hidden;margin-top:3px; text-align:center}
+
+.grid_code_ssc{height:55px;padding-top:0px;text-align:center; width:100%}
+.grid_code_ssc ul{width:370px; margin:0px auto}
+/*号码*/
+.kj-hao{text-align:center}
+.k3{ margin-left:105px}
+.kj-hao li{float:left; display:inline;}
+.gr_s {
+	background: url("../../images/common/caiqiu.png") no-repeat -590px top;
+	width: 59px;
+	height: 59px;
+	float: left;
+	margin: 0px 6px;
+}
+.gr_s1 {
+	background-position: left top;
+}
+.gr_s2 {
+	background-position: -59px top;
+}
+.gr_s3 {
+	background-position: -118px top;
+}
+.gr_s4 {
+	background-position: -177px top;
+}
+.gr_s5 {
+	background-position: -236px top;
+}
+.gr_s6 {
+	background-position: -295px top;
+}
+.gr_s7 {
+	background-position: -354px top;
+}
+.gr_s8 {
+	background-position: -413px top;
+}
+.gr_s9 {
+	background-position: -472px top;
+}
+.gr_s0 {
+	background-position: -531px top;
+}
+.gr_s01 {
+	background-position: left bottom;
+}
+.gr_s02 {
+	background-position: -59px bottom;
+}
+.gr_s03 {
+	background-position: -118px bottom;
+}
+.gr_s04 {
+	background-position: -177px bottom;
+}
+.gr_s05 {
+	background-position: -236px bottom;
+}
+.gr_s06 {
+	background-position: -295px bottom;
+}
+.gr_s07 {
+	background-position: -354px bottom;
+}
+.gr_s08 {
+	background-position: -413px bottom;
+}
+.gr_s09 {
+	background-position: -472px bottom;
+}
+.gr_s10 {
+	background-position: -531px bottom;
+}
+.gr_s11 {
+	background-position: -590px bottom;
+}
+.gr_s020 {
+	background-position: right top;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	line-height: 35px;
+	font-size: 16px;
+	margin-left:-10px;
+	padding:3px
+}
+.gr_sx, .gr_sk {
+	background-position: -800px top;
+}
+.gr_ks {
+	background: url("../../images/common/ks.gif") no-repeat left top;
+	width: 77px;
+	height: 76px;
+	float: left;
+	margin: 3px 4px;
+}
+.gr_ks1 {
+	background-position: left top;
+}
+.gr_ks2 {
+	background-position: -78px top;
+}
+.gr_ks3 {
+	background-position: -156px top;
+}
+.gr_ks4 {
+	background-position: -234px top;
+}
+.gr_ks5 {
+	background-position: -312px top;
+}
+.gr_ks6 {
+	background-position: -390px top;
+}
+.gr_ksm1 {
+	background-position: left bottom;
+}
+.gr_ksm2 {
+	background-position: -78px bottom;
+}
+.gr_ksm3 {
+	background-position: -156px bottom;
+}
+.gr_ksm4 {
+	background-position: -234px bottom;
+}
+.gr_ksm5 {
+	background-position: -312px bottom;
+}
+.gr_ksm6 {
+	background-position: -390px bottom;
+}
+.gr_ksx, .gr_ksk {
+	background: url("../../images/common/n.png") no-repeat -720px top;
+	width: 59px;
+	height: 59px;
+	float: left;
+	margin: 3px 4px;
+	background-position: -800px top;
+}
+
+.yellow{color:yellow;}
+.red{color:red;}
+
+/*买单部分*/
+.game-main{border:0px solid #CCCCCC; margin-top:0px; position:relative}
+.game-main .game-btn{ width:auto; height:44px; line-height:44px;overflow:hidden; margin:0 auto; margin-bottom:5px;background:url(../../images/common/titlebg.png) repeat center; border:0px #d9d9d9 solid } 
+.game-main .game-btn .ul-li a{color:#fff; font-size:14px; font-weight:bold;}
+.game-main .game-btn .ul-li.current a{color:#FFF;}
+
+.game-main .game-btn .ul-li {
+	float: left;
+	width:74px;
+	height:44px;
+	text-align: center;
+	display: block;
+	margin-right:0px;
+	cursor: pointer;
+	margin-left:8px;
+}
+.game-main .game-btn .ul-li.current {
+	margin-top:6px;
+	background:#49c5c3;
+	float: left;
+	width:74px;
+	height:32px;
+	text-align: center;
+	display: block;
+	margin-left:8px;
+	cursor: pointer;
+}
+.game-main .game-btn .ul-li .content {
+	display: block;
+	height: 44px;
+	line-height:44px;
+}
+.game-main .game-btn .ul-li.current .content {
+	display: block;
+	height: 32px;
+	line-height:32px;
+	color: #fff;
+	_float: left;
+}
+.game-main .game-cont .game-btn2{height:30px; margin:0px auto}
+.game-main .game-cont .game-btn2 .ul-li {
+	cursor: pointer;
+	float: left;
+	display: block;
+	height: 30px;
+	line-height:30px;
+	background: url(../../images/common/input_null.png) no-repeat;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.game-main .game-cont .game-btn2 .ul-li a {
+	display: block;
+	height: 30px;
+	margin-left: 5px;
+	color: #fff;
+	_float: left;
+	padding:0px 10px
+}
+.game-main .game-cont .game-btn2 .ul-li:hover {background: url(../../images/common/input_null01.png) no-repeat; height:30px}
+.game-main .game-cont .game-btn2 .ul-li:hover a { background:#}
+.game-main .game-cont .game-btn2 .ul-li.current {background: url(../../images/common/input_slcet.png) no-repeat ;height:30px}
+.game-main .game-cont .game-btn2 .ul-li.current a {color: #ff0000;
+
+
+word-wrap:break-word;word-break:normal;white-space:normal;
+}
+
+.game-main .game-cont .game-btn2 #game-helptips{margin-top:0px; padding-left:10px;}
+
+.game-main .game-cont textarea{border:1px solid #CCCCCC;}
+.game-main .game-cont .num-table{color:#fff; margin-bottom:6px;}
+.game-main .game-cont .num-table .pp{clear:both;line-height:26px;padding:0px;overflow:hidden;}
+.game-main .game-cont .num-table .pp .title{float: left; display:inline;width:74px;height: 31px;line-height:31px;color: #fff;font-size:15px;background: url(../../images/common/weibg.png) no-repeat left top;margin-top:0px;text-align:left;overflow: hidden; margin-right:0px; padding-left:15px}
+.game-main .game-cont .num-table .pp .title2{display:inline-block;line-height:38px;margin-top:0px;overflow:hidden; margin-right:20px;}
+#game-dom{text-align:right;padding:3px; background:url(../../images/common/titlebg.png) repeat center;}
+#num-select{overflow:hidden;padding:5px 5px;height:100%;background:url(../../images/common/titlebg.png) repeat center;}
+#textarea-code{height:70px; width:776px;background:url(../../images/common/titlebg.png) repeat center; border:0px}
+#game-helptips{position:relative;z-index:1;}
+.showhelp {
+	padding: 2px 0 2px 12px;
+	height: 19px;
+	line-height: 18px;
+	
+}
+.showhelp h5, .showhelp a, .showhelp span {
+	float: left;
+	display: block;
+	height: 19px;
+}
+.showhelp h5 {
+	font-weight: normal;
+	color: #fff;
+}
+.showhelp .methodexample, .showhelp .methodhelp {
+	background: url(../../images/common/menu_bg.png) no-repeat right -140px;
+	width: 41px;
+	margin-left: 10px;
+}
+.showhelp .methodhelp {
+	background-position: right -170px;
+	width: 17px;
+}
+.game_eg{position:absolute; z-index: 9999;text-align:left; }
+.game_eg .cont{width:260px;padding:6px;background:#D70002;line-height:20px;color:#FFFFFF;color:#fff;border-radius:3px;} 
+.game_eg .cont strong{font-weight:bold;}
+/*选号*/
+.select_title_kl8{font-weight:bold;text-align:center;cursor:pointer;height:30px;display:inline;font-size:14px;line-height:30px;padding:5px 15px;background:#F4A908;color:#b4ff00;margin:5px 10px 5px 5px;clear:both;}
+.select_title_kl8 span{margin:5px;width:50px;}
+.game .pp input.code, .game .pp label{display:inline;float:left; margin-right:5px;}
+.game .pp input.code, .game .pp input{font-weight:bold;text-align:center;cursor:pointer;height:31px;display:inline;float:left;font-size:14px;}
+.game .pp input.code, .game .pp input.action{color:#fff;margin:0px 0px 0px 0px;}
+.game .pp input.code, .game .pp label input{ float:none; margin-right:2px;}
+.game .pp input[type=checkbox]{width:14px; height:14px;}
+.game .pp11 input.code,.game .pp11 input.action{line-height:31px;width:31px;}
+.game .pp11 input[type=checkbox]{width:14px; height:14px;}
+.game .pp input.code {
+	cursor: pointer;
+	display: block;
+	float: left;
+	background: url(../../images/common/numberbg_off.png) no-repeat left;
+	width: 31px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right:7px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:none medium;
+}
+.game .pp input.code.checked{background: url(../../images/common/numberbg_on.png) no-repeat left;;color: #fff;}
+.game .pp input.code.reset{
+	cursor: pointer;
+	margin-bottom: 5px;
+	display: block;
+	float: left;
+	background: url(../../images/common/menu_bg.png) no-repeat -37px -80px;
+	width: 72px;
+	height: 38px;
+	line-height: 36px;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	margin-right: 2px;
+}
+.game .pp input.code.reset.checked{background-position: -37px -40px;color: #fff;}
+.game .pp input.code.reset2{height: 38px;line-height: 36px; padding:0 10px; width:auto;background-image:none;background-color:#efefef;border:1px solid #CCC; border-radius:8px;}
+.game .pp input.code.reset2.checked{background-color:#FF0000; color:#fff;}
+.game .pp input.action {
+	float:right;
+	background: url(../../images/common/zibg_off.png) no-repeat left;
+	width: 31px;
+	height: 31px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	margin-left: 10px;
+	font-weight: normal;
+	border:none medium;
+	font-family:"微软雅黑"
+}
+.game .pp input.action:hover,.game .pp input.action.on{background: url(../../images/common/zibg_no.png) no-repeat left;color: #fff;}
+.game-main .game-cont .fandian-table{color:#fff;}
+.game-main .game-cont .fandian-table .fandian{height:32px;line-height:32px; }
+.game-main .game-cont .fandian-table .fandian span{float:left;}
+.game-main .game-cont .fandian-table .fandian span.spn8{font-weight:bold; margin-left:10px;}
+.game-main .game-cont .fandian-table .fandian span.spn9{width: 54px; overflow-x: visible;}
+.game-main .game-cont .fandian-table .fandian .fandian-k{height:32px; float:left; width:384px; }
+.game-main .game-cont .fandian-table .fandian .fandian-k .fandian-box{float:left; width:202px; height:26px; margin-top:3px; position:relative;background:url(../../images/common/fdian-bj.png) no-repeat left top;}
+.fandian-box .slider{position:relative;width:132px;height:17px;left:22px;border:none;background:none;}
+.fandian-box .slider a.ui-slider-handle{display:block;height:23px;background:url(../../images/common/tiaojie_anniu.png) no-repeat;width:23px;position:absolute;border:none;margin:0;top:0; cursor:pointer}
+
+.game-main .game-cont .fandian-table .fandian .fandian-k .fandian-box input{position:absolute;background:url(../../images/common/tiaojie_bg.png); width:23px; height:23px; border:none;}
+.game-main .game-cont .fandian-table .fandian .fandian-k .fandian-box .min{left:0; top:0;cursor:pointer}
+.game-main .game-cont .fandian-table .fandian .fandian-k .fandian-box .action{background:url(../../images/common/tiaojie_bg.png) -10px 0 no-repeat;width:12px;}
+.game-main .game-cont .fandian-table .fandian .fandian-k .fandian-box .max{right:0; top:0; background-position:-176px 0;cursor:pointer}
+.game-main .game-cont .fandian-table .fandian .fandian-k .fdmoney{font-size:14px; color:#Fff000; font-weight:bold; margin-left:2px;}
+
+.game-main .game-cont .fandian-table .fandian .danwei{margin-left:10px; height:32px; float:left; margin-left:0px;}
+.game-main .game-cont .fandian-table .fandian .danwei input{cursor:pointer;}
+.game-main .game-cont .fandian-table .fandian .beishu{margin-left:10px; height:32px; float:left; display:inline; margin-right:10px;}
+.game-main .game-cont .fandian-table .fandian .beishu span{float:left;}
+.game-main .game-cont .fandian-table .fandian .beishu input.txt{background:url(../../images/common/beishu_kuang.png);height:19px; width:34px; text-align:center; float:left; margin-top:7px; font-size:12px; font-weight:bold; border:0px; color:#fff; line-height:19px}
+.game-main .game-cont .fandian-table .fandian .beishu .surbeishu{float:left;background:url(../../images/common/beishu_jian.png); width:19px; height:19px; border:none; margin-top:7px; margin-right:3px;cursor:pointer}
+.game-main .game-cont .fandian-table .fandian .beishu .addbeishu{float:left;background:url(../../images/common/beishu_jia.png); width:19px; height:19px; border:none;margin-top:7px; margin-left:3px;cursor:pointer}
+input.beishu{height:20px; width:35px; text-align:center; border:1px solid #CCCCCC; font-size:13px;}
+
+.game-main .game-cont .fandian-table .fandian .btn-preserve{height:23px; width:62px; background-position:-347px -450px; float:left; margin-left:15px; line-height:23px; margin-top:2px; text-align:center; font-weight:bold; cursor:pointer;}
+.game-main .game-cont .fandian-table .fandian .btn-preserve:hover{background-position:-347px -481px;color:#000}
+.game-main .game-cont .fandian-table .fandian .tztj-btn{float:left;border:0;width:40px;height:32px;cursor:pointer; margin-left:17px; padding-top:3px}
+.game-main .game-cont .fandian-table .fandian .tztj-btn .tztj-hover{float:left;display: block;width:40px;height:26px; line-height:27px;cursor: pointer;  background:url(../../images/common/baibg.png) repeat center; border:0px #CCCCCC solid; font-size:14px; padding-right:10px}
+.game-main .game-cont .fandian-table .fandian .tztj-btn .tztj-hover:hover{background:url(../../images/common/titlebg.png) repeat center; color:#FFF}
+
+.game-main .game-cont .fandian-table .fandian .fandian-k .fandian-box .action{background:url(../../images/common/tiaojie_bg.png) -80px 0 no-repeat;width:12px;}
+
+/*投注*/
+.game-main .game-cont .touzhu{padding:0px 0px 0px;}
+.game-main .game-cont .touzhu-top{color:#222;padding:5px 3px 4px 10px;padding:3px 3px 4px 0px!important;;overflow:hidden;}
+.game-main .game-cont .touzhu-top .tz-top-btn{float:right; width:50px;height:26px;cursor:pointer;background:url(../../images/common/baibg.png) repeat center; border:0px #CCCCCC solid; font-size:14px;overflow:hidden; font-family:"微软雅黑"; color:#fff; line-height:100%!important;}
+.game-main .game-cont .touzhu-top .tz-top-btn:hover{background:url(../../images/common/titlebg.png) repeat center; color:#FFF}
+.game-main .game-cont .touzhu-top .tz-top-btn[disabled]{background-position:0 -38px; color:#999;}
+.game-main .game-cont .touzhu-top .input-type{background-position:0 -125px; float:left; margin-left:25px; width:135px; height:26px;}
+.game-main .game-cont .touzhu-top .input-type input{cursor:pointer;}
+label{ cursor:pointer;}
+
+.game-main .game-cont .touzhu-top .input-type .sb-bj{width:16px; height:26px; display:block; float:left}
+.game-main .game-cont .touzhu-top .input-type .jp-bj{background-position:-55px -125px; width:16px; height:26px; display:block; float:left}
+.game-main .game-cont .touzhu-top .prompt{float:left; margin-left:5px; margin-top:3px;margin-left:14px!important; width:200px; height:18px; line-height:18px; color:#fff000;overflow-x:visible;}
+
+.game-main .game-cont .touzhu-cont{height:59px;overflow-y:auto;background:url(../../images/common/titlebg.png) repeat center; border:1px #7b5241 solid; margin:0 auto; float:left;text-align:center; width:656px}
+.game-main .game-cont .touzhu-cont table{width:99%;color:#fff; margin:3px}
+.game-main .game-cont .touzhu-cont td{padding:0 8px; text-align:center;cursor:default;}
+.game-main .game-cont .touzhu-cont tr:hover{background:url(../../images/common/titlebg.png) repeat center; color:#fff;}
+.game-main .game-cont .touzhu-cont .del{background:url(images/del.png) no-repeat center;width:16px;height:16px; cursor:pointer;}
+
+.game-main .game-cont .touzhu-bottom{margin:0px 0px 0px 12px; float:left}
+.game-main .game-cont .touzhu-bottom .tz-tongji{ margin-top:2px;float:left; height:30px; width:300px;font-size:13px; color:#fff}
+.game-main .game-cont .touzhu-bottom .tz-tongji span{font-size:15px; font-weight:bold; color:#Fff000; margin-right:5px;}
+.game-main .game-cont .touzhu-bottom .tz-buytype{text-align:center;font-size:15px;}
+.game-main .game-cont .touzhu-bottom  .tz-true-btn{text-align:center;font-size:15px; margin-top:8px}
+.game-main .game-cont .touzhu-bottom  .tz-true-btn .tz-true-hover{height:26px; line-height:26px;width:120px;cursor:pointer; background:url() #ff7e00 repeat center;color:#FFF;}
+.game-main .game-cont .touzhu-bottom  .zh-true-btn{float:right;height:26px; line-height:26px;width:120px;cursor:pointer; background:url() #22a6a4 repeat center; color:#FFF;}
+
+.game-main .game-cont .touzhu-true{color:#fff;width:790px; text-align:center}
+.game-main .game-cont .touzhu-true a{color:#ff0000;}
+.game-main .game-cont .touzhu-true thead tr{color:#fff;height: 28px;line-height: 28px;overflow: hidden; background: #DDD}
+.game-main .game-cont .touzhu-true tbody tr{height:25px;background:url(../../images/common/touzhuph_line.png) no-repeat bottom; color:#fff}
+.game-main .game-cont .touzhu-true tbody tr:hover{background:#fefefe;}
+.game-main .game-cont .touzhu-true tbody tr:hover a{}
+.game-main .game-cont .touzhu-true td{text-align:center;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;}
+

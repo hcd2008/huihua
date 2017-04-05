@@ -1,0 +1,29 @@
+.phbtbl {
+	width: 100%;
+	border-collapse: collapse;
+}
+.phbtbl th {
+	padding:4px;
+	line-height: 18px;
+	background-color: #;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.phbtbl td {
+	text-align: center;
+	padding: 5px;
+	line-height: 18px;
+	font-size: 14px;
+}
+.phbtbl td span {
+	border-radius:3px;
+	padding:2px;
+	background-color: #ddd;
+	color: #fff;
+}
+tr.phbtbl_color {
+	background-color: #fff;
+}
+.paihanggao{ height:314px; vertical-align:top}
+

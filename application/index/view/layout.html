@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="IE=EmulateIE8" http-equiv="X-UA-Compatible" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页－汇华国际</title>
+<link href='__ASSETS__/skin/main/bl_ococ.css' rel="stylesheet" type="text/css" />
+<link href="__ASSETS__/skin/js/jqueryui/skin/smoothness/jquery-ui-1.8.21.custom.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="__ASSETS__/skin/js/jquery-1.8.0.min.js"></script>
+
+<script type="text/javascript" src="__ASSETS__/skin/js/jqueryui/jquery-ui-1.8.23.custom.min.js"></script>
+<script type="text/javascript" src="__ASSETS__/skin/js/jqueryui/i18n/jquery.ui.datepicker-zh-CN.js"></script>
+<script type="text/javascript" src="__ASSETS__/skin/main/onload.js"></script>
+<script type="text/javascript" src="__ASSETS__/skin/common.js"></script>
+<style>
+body{
+background:url(__ASSETS__/images/bg{$theme_bg}.jpg) center top repeat;background-size:cover;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='__ASSETS__/images/bg{$theme_bg}.jpg',sizingMethod='scale');
+}
+</style>
+<!--[if IE 6]>
+  <script type="text/javascript" src="__ASSETS__/skin/js/DD_belatedPNG_0.0.8a.js" ></script>  
+  <script type="text/javascript">
+  DD_belatedPNG.fix('*');
+  </script>
+<![endif]-->
+</head>
+<body>
+<div id="mainbody">
+<div id="header">
+    <div class="headbox">
+    <div class="headbox_left"><img src="__ASSETS__/images/common/logo.png"/></div>
+    <div class="headbox_center">
+    <div class="fm userInfo"><table>
+    <tbody>
+        <tr>
+        <td>用户：<em>qwe999</em></td>
+        <td>余额：<strong style="color:#F00">999459.9999</strong>&nbsp;</td>
+        <td style="position:relative"><a href="javascript:;"  onclick="reloadMemberInfo()"><img src="__ASSETS__/images/common/ref.png" alt="刷新余额"></a></td>
+        <td><!--消息：
+        <strong class="msgnum">
+        <a href="/">0</a>
+        </strong>-->
+        <div class="headbox_chongzhi"><a href="{:url('cash/recharge')}">充值</a></div></td>
+        <td><div class="headbox_chongzhi"><a href="{:url('cash/tocash')}">提现</a></div></td>
+        </tr>
+    </tbody>
+</table></div>
+    <div id="topmenubox">
+    <ul class="toggle">
+    <li><a class="topmenubg topmenu_b_1" href="{:url('main/index')}"><span>平台首页</span></a></li>
+    <li><a class="topmenubg topmenu_b_2" href="{:url('user/index')}"><span>个人中心</span></a></li>
+    <li><a class="topmenubg topmenu_b_3" href="{:url('game/record')}" ><span>投注记录</span></a></li>
+    <li><a class="topmenubg topmenu_b_4" href="{:url('reports/account')}" ><span>报表管理</span></a></li>
+    <li><a class="topmenubg topmenu_b_5" href="{:url('team/user_index')}"><span>代理团队</span></a> </li>
+   
+    <li><a class="topmenubg topmenu_b_6" href="#"><span>平台活动</span></a></li>
+    <li><a class="topmenubg topmenu_b_7" href="http://wpa.qq.com/msgrd?v=3&uin=350826748" target="_blank" style="cursor: pointer"><span>联系客服</span></a></li>
+    </ul>
+    </div>
+    
+    </div>
+    <div class="headbox_rightline"></div>
+    <div class="headbox_right">
+    <a href="{:url('login/logout')}"><div class="headbox_right1"></div></a>
+    <div class="headbox_right2 changebg">
+      <a href="javascript:;"><img src="__ASSETS__/images/common/1.jpg" alt="橘红风格"></a>
+      <a href="javascript:;"><img src="__ASSETS__/images/common/2.jpg" alt="淡雅蓝风格"></a>
+      <a href="javascript:;"><img src="__ASSETS__/images/common/3.jpg" alt="紫色风格"></a>
+      <a href="javascript:;"><img src="__ASSETS__/images/common/4.jpg" alt="青绿风格"></a>
+      <a href="javascript:;"><img src="__ASSETS__/images/common/5.jpg" alt="木纹风格"></a>
+      <a href="javascript:;"><img src="__ASSETS__/images/common/6.jpg" alt="木纹风格"></a>
+    </div>
+    </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="bodybox">
+<div class="bodybox_left">
+<div id="menubar">
+        <div class="menubotton"><a href="javascript:;">游戏大厅</a></div>
+        <ul>
+            <li><a class="menubq menu_b_1" href="{:url('game/ssc')}">重庆时时彩</a></li>
+            <li><a class="menubq menu_b_1" href="{:url('game/xjc')}">新疆时时彩</a></li>
+        </ul>
+        <div class="menubotton"><a href="javascript:;">低频彩</a></div>
+        <ul>
+            <li><a class="menubq menu_b_1" href="{:url('game/fucai')}">福彩3D</a></li>
+            <li><a class="menubq menu_b_1" href="{:url('game/pls')}">排列三、五</a></li>
+        </ul>
+        <div class="menubotton"><a href="javascript:;">活动中心</a></div>
+        <ul>
+            <li><a class="menubq menu_b_1" href="#">客户端下载</a></li>
+            <li><a class="menubq menu_b_1" href="#">代理返佣</a></li>
+            <li><a class="menubq menu_b_1" href="#">夺宝奇兵</a></li>
+            <li><a class="menubq menu_b_1" href="#">代理返佣</a></li>
+            <li><a class="menubq menu_b_1" href="#">欢乐送</a></li>
+        </ul>
+</div>
+</div>
+<div class="bodybox_center">
+{__CONTENT__}
+</div>
+<div class="bodybox_right">
+<div class="homepaihang">
+<div class="paihangtiele" id="phb"><span class="paihangico">今日排行榜</span></div>
+<div class=paihanggao> 
+<table cellpadding="0" cellspacing="0" class="phbtbl">
+            <tr>
+                <th width="35">排名</th>
+                <th>用户名</th>
+                <th>总盈利额</th>
+            </tr>
+           
+   <tr><td><span class=jp>1</span></td><td>g***05</td><td>66,886.00</td></tr><tr><td><span class=yp>2</span></td><td>g***06</td><td>64,000.00</td></tr><tr><td><span class=tp>3</span></td><td>g***02</td><td>60,218.00</td></tr><tr><td><span style=background:url(__ASSETS__/images/common/titlebg.png)repeat;padding-left:6px;padding-right:6px;>4</span></td><td>g***88</td><td>56,800.00</td></tr><tr><td><span style=background:url(__ASSETS__/images/common/titlebg.png)repeat;padding-left:6px;padding-right:6px;>5</span></td><td>g***22</td><td>45,307.00</td></tr><tr><td><span style=background:url(__ASSETS__/images/common/titlebg.png)repeat;padding-left:6px;padding-right:6px;>6</span></td><td>g***09</td><td>34,897.00</td></tr><tr><td><span style=background:url(__ASSETS__/images/common/titlebg.png)repeat;padding-left:6px;padding-right:6px;>7</span></td><td>g***48</td><td>32,806.00</td></tr><tr><td><span style=background:url(__ASSETS__/images/common/titlebg.png)repeat;padding-left:6px;padding-right:6px;>8</span></td><td>g***24</td><td>21,900.00</td></tr><tr><td><span style=background:url(__ASSETS__/images/common/titlebg.png)repeat;padding-left:6px;padding-right:6px;>9</span></td><td>g***u9</td><td>19,880.00</td></tr><tr><td><span style=background:url(__ASSETS__/images/common/titlebg.png)repeat;padding-left:2px;padding-right:2px;>10</span></td><td>c***98</td><td>10,800.00</td></tr>      
+  </table></div> 
+</div>
+<div class="rightggtitle"><span class="gonggaoico">通知公告</span><a href="/index.php/notice/info">更多...</a></div>
+<ul class="tipslist">
+        <li><a href="#">12月22号微信可以正..</a><em>2016-12-22</em><span class="tipstxt"></span></li>
+        <li><a href="#">12月22号微信可以正..</a><em>2016-12-22</em><span class="tipstxt"></span></li>
+        <li><a href="#">12月22号微信可以正..</a><em>2016-12-22</em><span class="tipstxt"></span></li>
+        <li><a href="#">12月22号微信可以正..</a><em>2016-12-22</em><span class="tipstxt"></span></li>
+        <li><a href="#">12月22号微信可以正..</a><em>2016-12-22</em><span class="tipstxt"></span></li>
+        <li><a href="#">12月22号微信可以正..</a><em>2016-12-22</em><span class="tipstxt"></span></li>
+        <li><a href="#">12月22号微信可以正..</a><em>2016-12-22</em><span class="tipstxt"></span></li>
+      </ul>
+    
+            </div>
+        </div>
+    </div></div>
+</div>
+</div>
+<div id="wanjinDialog"></div>
+<div id="footer">Copyright &copy;&nbsp;2016 汇华国际&nbsp;本系统建议请使用IE8.0以上或Chrome，Firefox浏览器分辨率1440x900效果最佳</div> 
+</body>
+</html>
+
